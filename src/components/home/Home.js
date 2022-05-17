@@ -18,7 +18,7 @@ function Home() {
        <div className="container home_parentdiv">
 <div className='home_div'>
     <h1 className="hi">Hi, I'm <span className='home_name'>Deebika</span></h1>
-    <h2>a Full Stack Developer.</h2>
+    <h2 className="fullstack">a Full Stack Developer.</h2>
       
           <p className='fresher'>Fresher</p>
           <div className="buttondiv"><a href={Deebika_cv} target="_blank"> <button className="cv_button">RESUME</button></a></div>

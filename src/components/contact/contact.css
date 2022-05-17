@@ -23,7 +23,7 @@ label
 {
     width: 90%;
     height: 50px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     }
 .input:hover{
     opacity: 0.5s;
