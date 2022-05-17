@@ -1,0 +1,151 @@
+.contact{
+    padding:20px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+h3
+{
+    font-size:40px;
+    color:black;
+    text-transform: uppercase;
+    padding:20px;
+}
+label
+{
+    font-size: larger;
+    color:blalck;
+}
+.input
+{
+    width: 90%;
+    height: 50px;
+    border-radius: 25px;
+    }
+.input:hover{
+    opacity: 0.5s;
+    transform: translateX(10px);
+    border: 2px solid purple;
+    background-color: rgb(203, 243, 22) !important;
+}
+.input:focus{
+    border:3px solid green;
+    background-color: rgb(250, 224, 191);
+}
+textarea
+{
+    height: 90px !important;
+}
+.btndiv
+{
+    text-align : center;
+}
+.button
+{
+    border-radius: 10px;
+   background-color: purple;
+   width:120px;
+   height:50px;
+    font-size:30px;
+    border: 2px solid rgb(51, 3, 51);
+    color:white;
+    transition: all 1s ease-in-out;
+}
+.button:hover{
+opacity: 0.3s;
+color:red;
+background-color: yellowgreen;
+}
+.container
+{
+ padding:70px
+}
+.contact_card
+{
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    border:3px solid purple;
+    width:80vw;
+    background-color: rgb(214, 19, 140);
+}
+.form
+{
+    width: 80%;
+    padding:30px;
+}
+.map
+{
+    flex:2;
+    justify-content: center;
+   padding: 50px;
+       
+}
+.mapImage
+{
+    height: 400px;
+    width: 400px;
+    margin-right: -150px;
+     
+}
+.mapImage:hover{
+    
+    transform: rotateY(180deg);
+    transition: all 2s ease-in-out;
+}
+@media(width:1024px)
+{
+    .contact_card
+    {
+        width:90%;
+    }
+}
+@media(width:768px)
+{
+
+    .contact_card
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.mapImage
+{
+    margin-right: 0;
+}
+}
+
+@media(width<660px)
+{
+
+    .contact_card
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:70vw;
+        padding:5px;
+    
+            }
+
+.mapImage
+{
+    margin-right: 0;
+    height: 200px;
+    width: 200px;
+   }
+   .contact{
+       padding:0;
+       }
+   .input{
+       width:150px;
+   }
+   .form{
+       padding:0;
+       margin:0;
+   }
+}
+

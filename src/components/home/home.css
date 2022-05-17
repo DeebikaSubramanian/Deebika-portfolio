@@ -1,0 +1,172 @@
+.home{
+    margin-top: 30px;
+}
+
+h1{
+    /* margin-top: 150px; */
+    font-size: 60px;
+    color:black;
+}
+.fresher
+{
+    font-size:50px !important;
+    font-family:sans-serif;
+    margin-top: 20px;
+    color:rgb(18, 18, 19);
+    
+}
+.buttondiv
+{
+    text-align: left;
+    padding: 30px;
+    
+    
+}
+.cv_button
+{
+    width: 100px;
+    height:40px;
+    background-color: rgb(219, 16, 219);
+    border-radius: 10px;
+    color:black;
+    font-weight: 900 !important;
+    font-size:15px;
+    box-shadow: 5px 5px 20px rgb(236, 18, 120);
+}
+.cv_button:hover{
+    opacity: 0.5;
+    transition:0.5s all ease-in-out;
+    transform: translateY(-10px);
+    background-color:yellow;
+
+}
+.name
+{
+    color:white;
+}
+h2{
+    font-size: 50px;
+   
+}
+p
+{
+    font-size:40px;
+}
+.home_parentdiv
+{
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+}
+.home_image_div
+{
+    position:relative;
+}
+.elements1
+{
+    position: absolute;
+    width: 50px !important;
+    height:50px;
+    left:0;
+    top:-80px;
+}
+.elements2
+{
+    position:absolute ;
+    width: 50px !important;
+    height:50px;
+    top:200px;
+    left:70px;
+
+}
+.elements3
+{
+    position:absolute ;
+    width: 50px !important;
+    height:50px;
+   top: 10%;
+    left:200px;
+   }
+
+   .elements4
+{
+    position:absolute ;
+    width: 50px !important;
+    height:50px;
+  top: -70%;
+    left:150px;
+   }
+
+   .elements5
+   {
+       position:absolute ;
+       width: 50px !important;
+       height:50px;
+      bottom: -40%;
+       right:10px;
+      }
+
+      .elements6
+      {
+          position:absolute ;
+          width: 50px !important;
+          height:50px;
+         bottom: 90%;
+          left:300px;
+         }
+
+         .elements7
+         {
+             position:absolute ;
+             width: 50px !important;
+             height:50px;
+            bottom: 60%;
+             left:-50px;
+            }
+    
+            .elementAni
+            {
+                animation:move 3.5s linear infinite;
+            }
+
+@keyframes move
+{
+0%
+{
+    transform:translate(-15px,0px);
+}
+50%
+{
+    transform:translate(0px,-15px);
+}
+100%
+{
+    transform:translate(-15px,0px);
+}
+
+}
+@media(width:768px)
+{
+    .elements6
+    {
+         bottom: -50%;
+        left:-10px;
+       }
+}
+@media(width<660px)
+{
+    .home_parentdiv
+    {
+        flex-direction: column;
+    }
+    .home_image_div
+    {
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    .elements6
+    {
+         bottom: -50%;
+        left:-10px;
+       }
+}

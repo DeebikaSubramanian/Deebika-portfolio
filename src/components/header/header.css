@@ -1,0 +1,130 @@
+header {
+    /* height: 10vh; */
+    line-height: 10vh;
+      }
+
+ 
+  .d_flex
+  {
+    justify-content: end !important;
+  }
+
+  header .container {
+    padding-top: 15px;
+  }
+
+  header ul li {
+    margin-left: 30px;
+  }
+
+  header ul li a {
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  header ul li a:hover {
+    color: black;
+    border: 2px solid black;
+    border-radius:10px;
+    background-color: #ff014f;
+    cursor:pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  header ul li a:focus{
+    background-color: red;
+  }
+  .home-btn {
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    color: #ff014f;
+  }
+  .home-btn {
+    background: linear-gradient(145deg, purple, #b41717);
+    box-shadow: 4px 4px 8px #f10c64, -4px -4px 8px #e21919;
+  }
+  .home-btn:hover {
+    background: #ff014f;
+    color: white;
+  }
+  .open {
+    display: none;
+    margin-top: -20px;
+    
+  }
+  .header {
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgb(228, 11, 102);
+    box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+  }
+  a{
+    text-decoration:none;
+    color:white;
+  }
+  li{
+    list-style: none;
+  }
+
+  @media (max-width: 768px) {
+    header ul {
+      padding-top: 30px;
+    }
+    .nav-links-mobile {
+      /* position: absolute; */
+      display: block;
+      list-style: none;
+      box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      left: 0;
+      top: 0;
+      transition: all 0.5s ease-in-out;
+      width: 120%;
+      /* height: 50vh; */
+      background-color: rgb(250, 7, 140);
+      z-index: 888;
+    }
+     ul li {
+      /* width: 100%; */
+      transition: all 0.5s ease-in-out;
+      text-transform: uppercase;
+      line-height: 70px;
+    }
+    header .link
+    {
+      display:none;
+    }
+     
+    .open {
+      position: absolute;
+      top: 35px;
+      right: 20px;
+      color: #0c0c0c;
+      display: block;
+      font-size: 25px;
+      z-index: 999;
+      
+    }
+    .close {
+      right: 45%;
+    }
+    .close.home-btn {
+      background: linear-gradient(145deg, #e2e8ec, #ffffff);
+      color: #c50e45;
+      border-radius: 50%;
+      padding: 0;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      background-color: white;
+    }
+    .header.active {
+      height: 10vh;
+    }
+  }
