@@ -18,6 +18,7 @@ label
     font-size: larger;
     color:blalck;
 }
+
 .input
 {
     width: 90%;
@@ -37,6 +38,7 @@ label
 textarea
 {
     height: 90px !important;
+    border-radius: 0px !important;
 }
 .btndiv
 {
@@ -137,6 +139,11 @@ background-color: yellowgreen;
     height: 200px;
     width: 200px;
    }
+   .mapImage:hover{
+    
+    transform: none;
+    transition: none;
+}
    .contact{
        padding:0;
        }

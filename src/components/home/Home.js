@@ -17,7 +17,7 @@ function Home() {
    <section className="home" id="home">
        <div className="container home_parentdiv">
 <div className='home_div'>
-    <h1>Hi, I'm <span className='name'>Deebika</span></h1>
+    <h1 className="hi">Hi, I'm <span className='home_name'>Deebika</span></h1>
     <h2>a Full Stack Developer.</h2>
       
           <p className='fresher'>Fresher</p>
