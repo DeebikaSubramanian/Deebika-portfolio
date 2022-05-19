@@ -52,9 +52,6 @@
 
 import React, { useState } from "react"
 import "./header.css"
-import { Link, animateScroll as scroll } from "react-scroll";
-
-
 
 const Header = () => {
   // fixed Header

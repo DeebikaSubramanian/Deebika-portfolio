@@ -24,15 +24,12 @@ header {
     letter-spacing: 1px;
   }
   header ul li a:hover {
-    color: black;
-    border: 2px solid black;
-    border-radius:10px;
-    background-color: #ff014f;
+    color: rgb(240, 229, 229);
     cursor:pointer;
-    transition: all 0.5s ease-in-out;
-  }
+    border-top: #b41717 4px solid;
+   }
   header ul li a:focus{
-    background-color: red;
+    border-top: #b41717 4px solid;
   }
   .home-btn {
     padding: 18px 25px;
@@ -40,7 +37,7 @@ header {
     transition: 0.3s all ease;
     cursor: pointer;
     height: fit-content;
-    color: #ff014f;
+    color: #8015e4;
   }
   .home-btn {
     background: linear-gradient(145deg, purple, #b41717);
@@ -61,7 +58,7 @@ header {
     top: 0;
     z-index: 1000;
     width: 100%;
-    background-color: rgb(228, 11, 102);
+    background-color: rgb(22, 96, 206);
     box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
     transition: 0.5s;
   }
@@ -87,7 +84,7 @@ header {
       transition: all 0.5s ease-in-out;
       width: 120%;
       /* height: 50vh; */
-      background-color: rgb(250, 7, 140);
+      background-color: rgb(105, 99, 103);
       z-index: 888;
     }
      ul li {
