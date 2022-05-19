@@ -69,9 +69,9 @@ background-color: rgb(227, 230, 221);
     padding:15px;
     display: flex;
     justify-content: space-between;
-    border:3px solid rgb(26, 4, 63);
+    border:3px solid rgb(11, 83, 21);
     width:80vw;
-    background-color: rgb(6, 80, 241);
+    background-color: rgb(35, 207, 150);
 }
 .form
 {
@@ -94,8 +94,8 @@ background-color: rgb(227, 230, 221);
 }
 .mapImage:hover{
     
-    transform: rotateY(180deg);
-    transition: all 2s ease-in-out;
+    transform: translateY(-10px);
+    transition: all 0.2s ease-in-out;
 }
 @media(width:1024px)
 {

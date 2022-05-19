@@ -1,0 +1,43 @@
+.about
+{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.about_image
+{
+    width:350px;
+    height: 350px;
+}
+.about_list
+{
+  line-height: 0.5px !important;
+}
+.about_link{
+   font-size: 20px;
+   padding:30px;
+color:white;
+list-style-type: disc;
+line-height: 25px;
+text-transform: capitalize;
+}
+.cv_button
+{
+    width: 100px;
+    height:40px;
+    background-color: rgb(17, 3, 48);
+    border-radius: 10px;
+    color:white;
+    font-weight: 900 !important;
+    font-size:15px;
+    box-shadow: 5px 5px 20px rgb(12, 20, 133);
+    align-items: center;
+}
+.cv_button:hover{
+    opacity: 0.5;
+    transition:0.5s all ease-in-out;
+    transform: translateY(-5px);
+    background-color:rgb(132, 199, 238);
+    color:black;
+
+}

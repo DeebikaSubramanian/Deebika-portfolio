@@ -5,17 +5,17 @@ import Skill from './components/skill/Skill'
 import Project from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import './App.css'
-import Resume from './components/resume/Resume';
+import Aboutme from './components/aboutme/Aboutme';
 
 function App() {
   return (
     <div>
-
     <Header/>
     <Home/>
+    <Aboutme/>
     <Skill/>
     <Project/>
-    {/* <Resume/> */}
+   
     <Contact/>
     </div>
     

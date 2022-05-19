@@ -72,14 +72,15 @@ const Header = () => {
                 <a href='#home'>home</a>
               </li>
               <li>
+                <a href='#aboutme'>about me</a>
+              </li>
+              <li>
                 <a href='#skills'>skill</a>
               </li>
               <li>
                 <a href='#project'>project</a>
               </li>
-              <li>
-                <a href='#resume'>resume</a>
-              </li>
+              
                          <li>
                 <a href='#contact'>contact</a>
               </li>

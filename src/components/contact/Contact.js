@@ -30,7 +30,9 @@ function Contact() {
         setResult(false)
       },5000)
   return (
-    <div className="contact" id="contact">
+    <div className="contact" id="contact"  data-aos="fade-right"
+    data-aos-duration="1000"
+    data-aos-once="false">
         <div className="container">
             <h3 className='heading'>Contact</h3>
             <div className="contact_card">

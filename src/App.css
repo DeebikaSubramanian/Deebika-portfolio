@@ -2,7 +2,7 @@
 
 body
 {
-  background-color: rgb(6, 118, 247);
+  background-image: linear-gradient(to right top, #164239, #186958, #179279, #14be9a, #12ebbb);
   color:black;
   font-family:"Poppins",sans-serif;
 
@@ -60,11 +60,11 @@ button{
  }
  @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1e2cf3, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3200e6, 0 0 40px #2074e2, 0 0 50px #6840f8, 0 0 60px #6d4efa, 0 0 70px #8260e0;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #745ed8, 0 0 40px #341077, 0 0 50px #b114e0, 0 0 60px #970be9, 0 0 70px #5d17df, 0 0 80px #4110c9;
   }
 }
 @media(width<330px)
