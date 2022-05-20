@@ -68,10 +68,14 @@ text-transform: capitalize;
     .about_link{
         font-size: 18px;
          color:#DAF96E;
-  
-     line-height: 17px;
-    
-     }
+       line-height: 17px;
+    }
+    .about_container
+    {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
     }
     @media(width<1030px)
     {
