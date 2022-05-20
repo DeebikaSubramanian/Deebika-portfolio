@@ -1,43 +1,63 @@
 .about
 {
-    padding:20px;
+    padding:80px;
     display:flex;
-    justify-content: space-between;
+   justify-content: space-between;
+   /* gap:15%; */
 }
 .about_image
 {
-    width:350px;
-    height: 350px;
+    height: 230px;
+    width:150% !important;
+    /* position: absolute; */
 }
 .about_list
 {
-  line-height: 0.5px !important;
+
+  line-height:25px !important;
+  font-size:20px;
+margin-top: 50px;
+  position: relative;
 }
 .about_link{
    font-size: 20px;
-   padding:30px;
-color:white;
-list-style-type: disc;
+    color:#DAF96E;
+list-style: disc ;
 line-height: 25px;
 text-transform: capitalize;
 }
 .cv_button
 {
-    width: 100px;
+    width: 150px;
     height:40px;
-    background-color: rgb(17, 3, 48);
+    background-color: white;
     border-radius: 10px;
-    color:white;
+    color:#FOEEE2;
     font-weight: 900 !important;
     font-size:15px;
-    box-shadow: 5px 5px 20px rgb(12, 20, 133);
-    align-items: center;
+    box-shadow: 5px 5px 20px rgb(28, 177, 214);
+    
 }
 .cv_button:hover{
     opacity: 0.5;
     transition:0.5s all ease-in-out;
     transform: translateY(-5px);
-    background-color:rgb(132, 199, 238);
+    background-color:#DAF96E;
     color:black;
+}
+    .buttondiv
+{
+   text-align: center;
+   padding:40px;
+}
 
+@media(width<660px)
+{
+    .about
+    {
+        flex-direction:column;
+    }
+    .about_image{
+      display:none;
+    }
 }

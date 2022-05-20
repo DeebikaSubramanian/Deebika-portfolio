@@ -18,7 +18,7 @@ function Aboutme() {
             <div className="about_content">
                 <ul className="about_list">
                     <li className='about_link'>
-                    {/* <i class="fa-solid fa-angles-right"></i> */}
+                     {/* <i class="fa-solid fa-angles-right"></i> */}
                      Doing Fullstack Developement certificate course in Guvi Geek, Chennai at present.
                     </li>
                     <li className='about_link'>
@@ -30,8 +30,11 @@ function Aboutme() {
                     <li className='about_link'>
                         I am located in Nairobi, Kenya at present. Willing to do Work from Home
                     </li>
-                </ul>
-                <div className="buttondiv"><a href={Deebika_cv} target="_blank"> <button className="cv_button">RESUME</button></a></div>
+                </ul> 
+                {/* <p className="about_list">Doing Fullstack Development certificate course in Guvi Geek, Chennai at present.  
+                <br/>Passionate towards coding. <br/>
+                Interested in Frontend as well as backend developement.</p> */}
+                <div className="buttondiv"><a href={Deebika_cv} target="_blank"> <button className="cv_button">VIEW RESUME</button></a></div>
                 </div>
                 </div>
     </div>

@@ -6,24 +6,27 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
      0 6px 20px 0 rgba(0, 0, 0, 0.19),
      0 8px 30px 0 rgba(0, 0, 0, 0.19);
-     transition-property: height;
-     transition-duration: 1s;
-     transition-timing-function: linear;
-     transition-delay: 0.1s;
      border-radius: 5px;
      margin:10px;
+      
 }
-.project_card:hover
+.project_card:hover 
 {
-   background-color: rgb(227, 231, 231);
+   background-color: #DAF96E;
     opacity: 5;
     width:400px;
     color:white;
     transition: all 0.2s ease-in-out;
-    /* transform: translateY(-30px); */
-    transform:translateY(-10px);
-    color:red;
-        
+    transform: translateY(-5px);
+    border: 10px solid #DAF96E;
+    
+            
+}
+.project_card:hover .image
+{
+    transform:translateY(-20px);
+    border-radius: 5px;
+    padding:0;
 }
 .project_img
 {
@@ -33,20 +36,9 @@
 .content
 {
     padding:40px;
-}
-h3
-{
-    font-size:40px;
-    color:black;
-    text-transform: uppercase;
-    padding:20px;
-}
-
-.container
-{
-    /* height: 50vh; */
     
 }
+
 img{
     height:98%;
     width:97% !important;
@@ -61,18 +53,13 @@ img{
 
 .title
 {
-    color:black;
+    color:white;
     font-size: 20px;
+    text-align: center;
 }
-
-
-
-.box:hover
-{
-    opacity:10;
+.project_card:hover .title{
     color:black;
 }
-
 
   .project_flex
   {

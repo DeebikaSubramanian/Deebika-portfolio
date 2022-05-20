@@ -16,12 +16,12 @@ h3
 label
 {
     font-size: larger;
-    color:blalck;
+    color:white;
 }
 
 .input
 {
-    width: 90%;
+    width: 300px !important;
     height: 50px;
     border-radius: 10px;
     }
@@ -38,7 +38,7 @@ label
 textarea
 {
     height: 90px !important;
-    border-radius: 0px !important;
+    /* border-radius: 0px !important; */
 }
 .btndiv
 {
@@ -47,18 +47,17 @@ textarea
 .button
 {
     border-radius: 10px;
-   background-color: rgb(16, 38, 243);
-   width:120px;
+    width:120px;
    height:50px;
     font-size:30px;
-    border: 2px solid rgb(51, 3, 51);
-    color:white;
+    border: 2px solid #DAF96E;
+    color:#29310d;
     transition: all 1s ease-in-out;
 }
 .button:hover{
 opacity: 0.3s;
-color:rgb(12, 11, 11);
-background-color: rgb(227, 230, 221);
+color:white;
+background-color: #DAF96E;
 }
 .container
 {
@@ -69,9 +68,9 @@ background-color: rgb(227, 230, 221);
     padding:15px;
     display: flex;
     justify-content: space-between;
-    border:3px solid rgb(11, 83, 21);
+    border:3px solid rgb(2, 46, 40);
     width:80vw;
-    background-color: rgb(35, 207, 150);
+    box-shadow:2px 3px 8px #DAF96E;
 }
 .form
 {
@@ -154,5 +153,13 @@ background-color: rgb(227, 230, 221);
        padding:0;
        margin:0;
    }
+}
+@media(width<330px)
+{
+    .input
+    {
+        width:160px !important;
+        
+    }
 }
 

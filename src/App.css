@@ -2,8 +2,8 @@
 
 body
 {
-  background-image: linear-gradient(to right top, #164239, #186958, #179279, #14be9a, #12ebbb);
-  color:black;
+  background-color:#133416;
+  color:white;
   font-family:"Poppins",sans-serif;
 
 }
@@ -49,9 +49,7 @@ button{
   display:flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(121, 159, 241, 0.288); */
   text-align: center;
-  /* border-radius: 50px; */
   margin-bottom: 20px;
   color:white !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,11 +58,11 @@ button{
  }
  @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3200e6, 0 0 40px #2074e2, 0 0 50px #6840f8, 0 0 60px #6d4efa, 0 0 70px #8260e0;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1c5321, 0 0 40px #289431, 0 0 50px #1da873, 0 0 60px #128d53, 0 0 70px #4ed12d;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #745ed8, 0 0 40px #341077, 0 0 50px #b114e0, 0 0 60px #970be9, 0 0 70px #5d17df, 0 0 80px #4110c9;
+    text-shadow: 0 0 20px #fff, 0 0 30px #3baff3, 0 0 40px #2fa05e, 0 0 50px #175e2f, 0 0 60px #12ac7d, 0 0 70px #0c9918, 0 0 80px #0b8d41;
   }
 }
 @media(width<330px)

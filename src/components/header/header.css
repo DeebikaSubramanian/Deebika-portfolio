@@ -26,10 +26,10 @@ header {
   header ul li a:hover {
     color: rgb(240, 229, 229);
     cursor:pointer;
-    border-top: #b41717 4px solid;
+    border-top: #DAF96E 4px solid;
    }
   header ul li a:focus{
-    border-top: #b41717 4px solid;
+    border-top: #DAF96E 4px solid;
   }
   .home-btn {
     padding: 18px 25px;
@@ -58,7 +58,7 @@ header {
     top: 0;
     z-index: 1000;
     width: 100%;
-    background-color: rgb(23, 197, 183);
+    background-color: rgb(40, 82, 35);
     box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
     transition: 0.5s;
   }
@@ -78,13 +78,13 @@ header {
       /* position: absolute; */
       display: block;
       list-style: none;
-      box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      box-shadow: #0d250f 0px 50px 100px -20px, #0f3f13 0px 30px 60px -30px;
       left: 0;
       top: 0;
       transition: all 0.5s ease-in-out;
       width: 120%;
       /* height: 50vh; */
-      background-color: rgb(105, 99, 103);
+      background-color: #133413;
       z-index: 888;
     }
      ul li {
@@ -102,7 +102,7 @@ header {
       position: absolute;
       top: 35px;
       right: 20px;
-      color: #0c0c0c;
+      color: #DAF96E;
       display: block;
       font-size: 25px;
       z-index: 999;
@@ -113,13 +113,13 @@ header {
     }
     .close.home-btn {
       background: linear-gradient(145deg, #e2e8ec, #ffffff);
-      color: #c50e45;
+      color: #DAF96E;
       border-radius: 50%;
       padding: 0;
       width: 60px;
       height: 60px;
       line-height: 60px;
-      background-color: white;
+      background-color: rgb(50, 112, 58);
     }
     .header.active {
       height: 10vh;
