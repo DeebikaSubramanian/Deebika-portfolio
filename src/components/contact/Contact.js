@@ -35,7 +35,7 @@ function Contact() {
     // data-aos-duration="1000" 
     // data-aos-once="false"
     >
-        <div className="container">
+        <div className="container contact_container">
             <h3 className='heading'>Contact</h3>
             <div className="contact_card">
                 <div className="form">
