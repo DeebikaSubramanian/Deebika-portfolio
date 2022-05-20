@@ -83,7 +83,10 @@ text-transform: capitalize;
     {
         line-height: 25px;
     }
-
+.buttondiv
+{
+    padding:10px;
+}
     }
     @media(width<1030px)
     {
