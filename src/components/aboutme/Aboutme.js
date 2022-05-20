@@ -1,16 +1,11 @@
 import React from 'react'
 import aboutmeImage from '../images/aboutmeImage.png'
-import Deebika_cv from '../cv/Deebika_cv.pdf'
 import './aboutme.css'
 
 
 function Aboutme() {
   return (
-    <div className="about_container container" id="aboutme"
-    // data-aos="fade-up"
-    // data-aos-duration="1000"
-    // data-aos-once="true" 
-    >
+    <div className="about_container container" id="aboutme"  >
         <h3 className="heading">About Me</h3>
         <div className="about">
         <div className="about_image_div">
@@ -32,10 +27,8 @@ function Aboutme() {
                         I am located in Nairobi, Kenya at present. Willing to do Work from Home
                     </li>
                 </ul> 
-                {/* <p className="about_list">Doing Fullstack Development certificate course in Guvi Geek, Chennai at present.  
-                <br/>Passionate towards coding. <br/>
-                Interested in Frontend as well as backend developement.</p> */}
-                <div className="buttondiv"><a href={Deebika_cv} target="_blank"> <button className="cv_button">VIEW RESUME</button></a></div>
+           
+                <div className="buttondiv"><a href="https://drive.google.com/file/d/1AnJv-z0Ss-kowRO78Q9XAiw_k7lL54dn/view?usp=sharing" target="_blank"> <button className="cv_button">VIEW RESUME</button></a></div>
                 </div>
                 </div>
     </div>

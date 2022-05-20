@@ -9,10 +9,7 @@ function Skill() {
     // data-aos-duration="1000"
     // data-aos-once="false" 
     >
-        {/* <div className='heading'>
-          <h3 >Skills</h3>
-          {/* <i class="fa-solid fa-cog fa-spin"></i> */}
-        {/* </div>  */}
+ 
 <h3 className="heading skill_heading">Skills</h3>
           <div className='skills f_flex'>
               <span className='name'>javascript</span>
