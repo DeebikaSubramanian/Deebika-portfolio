@@ -9,7 +9,7 @@ import element3 from '../images/element3.png';
 import element4 from '../images/element4.png';
 import element5 from '../images/element5.png';
 import element6 from '../images/element6.png';
-import Deebika_cv from '../cv/Deebika_cv.pdf'
+
 
 function Home() {
   return (
@@ -22,7 +22,6 @@ function Home() {
     <h2 className="fullstack">a Full Stack Developer.</h2>
       
           <p className='fresher'>Fresher</p>
-          {/* <div className="buttondiv"><a href={Deebika_cv} target="_blank"> <button className="cv_button">RESUME</button></a></div> */}
 </div>
 <div className="home_image_div">
 <img  className='home_img' src={it} alt=""/>

@@ -31,8 +31,8 @@ function Contact() {
       },5000)
   return (
     <div className="contact" id="contact" 
-    //  data-aos="fade-right"
-    // data-aos-duration="1000"
+    //  data-aos="fade-left"
+    // data-aos-duration="1000" 
     // data-aos-once="false"
     >
         <div className="container">

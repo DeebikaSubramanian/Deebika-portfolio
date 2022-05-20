@@ -6,10 +6,11 @@ import './aboutme.css'
 
 function Aboutme() {
   return (
-    <div className="about_container" id="aboutme"
-    data-aos="fade-left"
-    data-aos-duration="1000"
-    data-aos-once="true" >
+    <div className="about_container container" id="aboutme"
+    // data-aos="fade-up"
+    // data-aos-duration="1000"
+    // data-aos-once="true" 
+    >
         <h3 className="heading">About Me</h3>
         <div className="about">
         <div className="about_image_div">

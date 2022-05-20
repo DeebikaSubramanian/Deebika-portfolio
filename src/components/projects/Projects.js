@@ -14,11 +14,9 @@ function Projects() {
 //     data-aos-once="false"
     >
 
-      <div >
+      
           <h3 className='heading'>Projects</h3>
-          {/* <img className="project_img" src={project} alt=""/> */}
-          {/* <i class="fa-solid fa-desktop-arrow-down fa-fade" style={{color:"red"}}></i> */}
-          </div>
+          
  <div className="content project_flex">
    {
      data.map((e,index)=>

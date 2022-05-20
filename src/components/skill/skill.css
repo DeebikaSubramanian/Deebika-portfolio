@@ -1,13 +1,10 @@
 .container
 {
-    height:150vh;
+    /* height:150vh; */
     position: relative;
       
 }
-.skills_container
-{
-    /* height:100vh; */
-}
+
 
 .f_flex
 {
@@ -17,7 +14,7 @@
 .container .skills
 {
     position: relative;
-    margin:20px 0;
+    margin:40px 0;
     width: 90% !important;
     padding:24px 10px 18px;
     /* background-color: rgba(17, 236, 109, 0.5);
@@ -107,6 +104,10 @@
    width:230px;
    margin-left: 0;
 }
+.skill_heading
+{
+   margin-top:80px;
+  }
 }
 @media(width<660px)
 {

@@ -1,8 +1,10 @@
 header{
   animation:none;
-  
+  padding:20px;
+  position:absolute;
+  /* width:100%; */
+   
 }
-
  
   .d_flex
   {
@@ -15,6 +17,7 @@ header{
 
   header ul li {
     margin-left: 30px;
+    margin-top: -15px;
   }
 
   header ul li a {
@@ -49,11 +52,11 @@ header{
   }
   .open {
     display: none;
-    margin-top: -20px;
+    margin-top: 0px;
     
   }
   .header {
-    height: 10vh;
+    height: 9vh;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -98,7 +101,7 @@ header{
     }
      
     .open {
-      /* position: absolute; */
+      position: absolute;
       top: 35px;
       right: 20px;
       color: #DAF96E;
@@ -121,6 +124,6 @@ header{
       background-color: rgb(50, 112, 58);
     }
     .header.active {
-      height: 10vh;
+      /* height: 10vh; */
     }
   }

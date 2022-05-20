@@ -13,7 +13,7 @@ function Skill() {
           <h3 >Skills</h3>
           {/* <i class="fa-solid fa-cog fa-spin"></i> */}
         {/* </div>  */}
-<h3 className="heading">Skills</h3>
+<h3 className="heading skill_heading">Skills</h3>
           <div className='skills f_flex'>
               <span className='name'>javascript</span>
               <div className='percent'>
