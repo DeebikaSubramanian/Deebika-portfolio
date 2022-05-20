@@ -1,8 +1,12 @@
+.about_container
+{
+    height:100vh;
+}
 .about
 {
     padding:80px;
     display:flex;
-   justify-content: space-between;
+   justify-content: center;
    /* gap:15%; */
 }
 .about_image
@@ -32,9 +36,9 @@ text-transform: capitalize;
     height:40px;
     background-color: white;
     border-radius: 10px;
-    color:#FOEEE2;
     font-weight: 900 !important;
     font-size:15px;
+    color:#DAF96E;
     box-shadow: 5px 5px 20px rgb(28, 177, 214);
     
 }

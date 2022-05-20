@@ -8,9 +8,11 @@ import project from '../images/project.png'
 function Projects() {
   return (
     <>
-<section id="project" className='project'  data-aos="fade-left"
-    data-aos-duration="1000"
-    data-aos-once="false">
+<section id="project" className='project' 
+//  data-aos="fade-left"
+//     data-aos-duration="1000"
+//     data-aos-once="false"
+    >
 
       <div >
           <h3 className='heading'>Projects</h3>

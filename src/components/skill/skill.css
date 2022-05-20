@@ -1,9 +1,12 @@
 .container
 {
-    /* height:50vh; */
+    height:150vh;
     position: relative;
-  
-     
+      
+}
+.skills_container
+{
+    /* height:100vh; */
 }
 
 .f_flex

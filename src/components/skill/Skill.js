@@ -4,10 +4,11 @@ import skill from '../images/skill.png'
 
 function Skill() {
   return (
-    <div className='container' id="skills"
-    data-aos="fade-right"
-    data-aos-duration="1000"
-    data-aos-once="false" >
+    <div className='container skills_container' id="skills"
+    // data-aos="fade-right"
+    // data-aos-duration="1000"
+    // data-aos-once="false" 
+    >
         {/* <div className='heading'>
           <h3 >Skills</h3>
           {/* <i class="fa-solid fa-cog fa-spin"></i> */}

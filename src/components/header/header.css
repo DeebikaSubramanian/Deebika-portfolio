@@ -1,7 +1,7 @@
-header {
-    /* height: 10vh; */
-    line-height: 10vh;
-      }
+header{
+  animation:none;
+  
+}
 
  
   .d_flex
@@ -53,7 +53,7 @@ header {
     
   }
   .header {
-    height: 12vh;
+    height: 10vh;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -75,7 +75,6 @@ header {
       padding-top: 30px;
     }
     .nav-links-mobile {
-      /* position: absolute; */
       display: block;
       list-style: none;
       box-shadow: #0d250f 0px 50px 100px -20px, #0f3f13 0px 30px 60px -30px;
@@ -99,7 +98,7 @@ header {
     }
      
     .open {
-      position: absolute;
+      /* position: absolute; */
       top: 35px;
       right: 20px;
       color: #DAF96E;

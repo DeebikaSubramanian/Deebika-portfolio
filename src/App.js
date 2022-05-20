@@ -15,7 +15,6 @@ function App() {
     <Aboutme/>
     <Skill/>
     <Project/>
-   
     <Contact/>
     </div>
     
