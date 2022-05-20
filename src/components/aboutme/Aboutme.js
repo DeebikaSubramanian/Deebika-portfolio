@@ -14,16 +14,16 @@ function Aboutme() {
             <div className="about_content">
                 <ul className="about_list">
                     <li className='about_link'>
-                    Doing Fullstack Developement certificate course in Guvi Geek, Chennai at present.
+                   completed certification as Full Stack Developer from reputed Institution.
                     </li>
                     <li className='about_link'>
-                      I have completed Master of Science in Information Technology.
+                      Post graduate in Information Technology.
                     </li>
                     <li className='about_link'>
                         Interested in Frontend Development as well as Web developement
                     </li>
                     <li className='about_link'>
-                        I am located in Nairobi, Kenya at present. Willing to do Work from Home.
+                       Proficient in Javascript,Html,Css,React and mongodb.
                     </li>
                 </ul> 
            
