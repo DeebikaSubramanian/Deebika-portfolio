@@ -9,7 +9,7 @@ function Projects() {
   return (
     <>
 <section id="project" className='project' 
-//  data-aos="fade-left"
+//  data-aos="zoom-out"
 //     data-aos-duration="1000"
 //     data-aos-once="false"
     >

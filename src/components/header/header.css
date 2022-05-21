@@ -59,7 +59,7 @@ header{
     height: 9vh;
     position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 99;
     width: 100%;
     background-color: rgb(40, 82, 35);
     box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);

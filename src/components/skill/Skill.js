@@ -5,7 +5,7 @@ import skill from '../images/skill.png'
 function Skill() {
   return (
     <div className='container skills_container' id="skills"
-    // data-aos="fade-right"
+    // data-aos="zoom-out"
     // data-aos-duration="1000"
     // data-aos-once="false" 
     >

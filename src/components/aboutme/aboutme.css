@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Great+Vibes&family=Hind+Madurai:wght@500&family=Oswald:wght@200;300&family=Poppins:wght@300&family=Shippori+Antique+B1&display=swap');
 .about_container
 {
     margin-top: 50px;
@@ -12,38 +13,43 @@
     display:flex;
    justify-content: space-between;
    gap:15%;
+   align-items: center;
 }
 .about_image
 {
-    height: 230px;
-    width:150% !important;
-    /* position: absolute; */
+    height: 250px;
+    width:250% !important;
+    margin-left: 0;
 }
 .about_list
 {
-
+text-align: center;
   line-height:25px !important;
   font-size:20px;
 margin-top: 30px;
   position: relative;
+  color:#DAF96E;
+  font-family: 'Bree Serif', serif;
+  text-transform: capitalize;
 }
-.about_link{
+/* .about_link{
    font-size: 20px;
     color:#DAF96E;
 list-style: disc ;
 line-height: 25px;
 text-transform: capitalize;
-}
+} */
 .cv_button
 {
     width: 150px;
     height:40px;
-    background-color: white;
+    background-color: inherit;
     border-radius: 10px;
     font-weight: 900 !important;
     font-size:15px;
     color:#DAF96E;
-    box-shadow: 5px 5px 20px rgb(28, 177, 214);
+    border:2px solid #DAF96E
+    /* box-shadow: 5px 5px 20px rgb(28, 177, 214); */
     
 }
 .cv_button:hover{
@@ -69,11 +75,11 @@ text-transform: capitalize;
     .about_image{
       display:none;
     }
-    .about_link{
+    /* .about_link{
         font-size: 18px;
          color:#DAF96E;
        line-height: 17px;
-    }
+    } */
     .about_container
     {
         margin-left: 0%;
@@ -82,14 +88,12 @@ text-transform: capitalize;
     .about_list
     {
         margin-top: 0px;
+        justify-content: center;
     }
-    .about_link
-    {
-        line-height: 25px;
-    }
+  
     .about_content
     {
-        margin-left: -30px;
+        margin-left: 40px;
         margin-top:-30px;
     }
 .buttondiv
@@ -107,6 +111,8 @@ text-transform: capitalize;
         {
             height: 230px;
             width:70% !important;
+            text-align: center;
+            margin-left: 40px;
      }
     }
     @media(width<380px)
@@ -115,11 +121,16 @@ text-transform: capitalize;
         {
         margin-top: 200px;
         }
-        .about_link{
+        .about_content
+    {
+        margin-left: 50px;
+        margin-top:-30px;
+    }
+        /* .about_link{
             margin-top: 0;
             font-size: 16px;
              color:#DAF96E;
            line-height: 19px;
-        }
+        } */
       
     }
